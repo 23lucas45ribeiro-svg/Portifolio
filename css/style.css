@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.topo{
+    border:2px solid rgb(203, 3, 3); 
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.saudacao{
+    border:2px solid rgb(201, 6, 6);
+    border-radius:10px;
+    text-align: center;
+}
+
+.margin{
+    margin: 10px;
+}
+
+.botao{
+    margin-left:40%;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(253, 0, 0);
+    padding: 2px;
+    border-radius:10px;
+}
+
+.botao:hover{
+    background-color:rgb(82, 141, 82);
+}
