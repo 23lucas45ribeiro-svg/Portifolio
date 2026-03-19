@@ -79,6 +79,7 @@ section{
     color:black;
     margin-left:8px
 }
+
 .botao_nav:hover{
     border-bottom: 2px solid rgb(33, 33, 243);
 }
