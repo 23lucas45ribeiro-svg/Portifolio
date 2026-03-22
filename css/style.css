@@ -3,7 +3,7 @@ body{
     color: aliceblue;
 }
 
-p{
+*{
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -12,18 +12,10 @@ p{
     border-radius:30px;
     text-align: center;
     width:40%;
-    margin-left: 30%;
+    margin-left:30%;
+    margin-top:12px;
 }
 
-.topo{
-    border:2px solid rgb(203, 3, 3); 
-    border-radius:10px;
-    margin-bottom:150px;
-}
-
-.margin{
-    margin: 10px;
-}
 
 a.botao{
     display:inline;
@@ -40,19 +32,33 @@ a.botao{
     border:1px solid #777;
 }
 
-.borda{
-    border:2px solid red;
-    padding-left:4px;
-    margin-top:10px;
-}
-
-section{
+.perfil{
     display: inline-block;
     width:300px;
     height:200px;
     margin:60px;
     margin-left:220px;
+    border:2px solid rgb(232, 10, 10);
+    border-radius:15px;
+}
 
+.sobre_mim{
+    display: inline-block;
+    width:300px;
+    height:200px;
+    margin:60px;
+    margin-left:220px;
+    border:2px solid rgb(232, 10, 10);
+    border-radius:15px;
+}
+
+.meus_projetos{
+    text-align:center;
+    color: black; 
+    background-color:white;
+    margin-left:20%;
+    margin-right:20%;
+    border-radius:100px;
 }
 
 .guia{
@@ -60,24 +66,15 @@ section{
     color:black;
     text-align: center;
     border:2px solid red;
-    margin-top:70px;
-    height:21px
-}
-
-.meus_projetos{
-    text-align:center;
-    color: black; 
-    background-color:white;
-    margin-left: 35%;
-    margin-right:35%;
-    border-radius:4px;
-    margin-top:10px
+    margin-top:20px;
+    height:30px;
+    font-size: 20px;
 }
 
 .botao_nav{
     text-decoration: none;
     color:black;
-    margin-left:8px
+    margin-left:10px;
 }
 
 .botao_nav:hover{
@@ -89,10 +86,35 @@ section{
     width:900px;
     height:500px;
     margin-left:220px;
-    margin-top:50px;   
+    margin-top: 50px;  
+    border-radius:20px;
+    
 }
 
 .h2_main{
-    display: inline;
-    
+    margin-left: 10%;
+    display:in;
+}
+
+.back_end{
+    display:inline-block;
+    margin-left: 15%;
+}
+
+.front_end{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.descricao_projetos{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.roda_pe{
+    background-color: aliceblue;
+    text-align: center;
+    color:black;
+    margin-top:20px;
+    border-radius:30px;
 }
