@@ -5,7 +5,13 @@ body{
 
 *{  
     font-family:'Times New Roman', Times, serif;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}  
+
+nav{
+    position: sticky;
+    top:0;
+}
+
 .saudacao{
     border:2px solid rgb(201, 6, 6);
     border-radius:30px;
@@ -32,13 +38,31 @@ a.botao{
 
 .sobre_mim{
     width:600px;
-    height:300px;
+    height:310px;
     margin:60px;
-    margin-left:28%;
+    margin-left:15%;
     border:2px solid rgb(232, 10, 10);
     border-radius:15px;
+    display: inline-block;
+    text-align: justify;
+    word-spacing: 3px;
+    line-height: 1.4;
+    font-size:17px;
 }
 
+.foto{
+    width: 300px;
+    height: 290px;
+    border:2px solid red;
+    display: inline-block;
+    border-radius: 15px;
+    background-image:url('../img/foto_perfil.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.conteudo_sobre_mim{
+    margin:10px;  
+}
 
 .meus_projetos{
     text-align:center;
