@@ -67,20 +67,22 @@ a.botao{
 .meus_projetos{
     text-align:center;
     color: black; 
-    background-color:white;
+    background-color:#F0EEEE;
     margin-left:20%;
     margin-right:20%;
     border-radius:100px;
 }
 
 .guia{
-    background-color:white;
+    background-color:#F0EEEE;
     color:black;
     text-align: center;
-    border:2px solid red;
+    border: 2px solid #777;
     margin-top:20px;
-    height:30px;
-    font-size: 20px;
+    padding-top: 10px;
+    height:40px;
+    font-size: 25px;
+    word-spacing: 10px;  
 }
 
 .botao_nav{
@@ -125,7 +127,7 @@ a.botao{
 }
 
 .roda_pe{
-    background-color: aliceblue;
+    background-color: #F0EEEE;
     text-align: center;
     color:black;
     margin-top:20px;
